@@ -1,0 +1,24 @@
+{
+  "name": "seven-devs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /seven-devs/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "Nils Rondhuis",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "swiper": "^8.3.0"
+  }
+}
