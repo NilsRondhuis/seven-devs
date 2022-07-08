@@ -1,6 +1,11 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 10px 0;
-  position: relative;
+  z-index: 10;
+  background-color: var(--white-cl);
 }
 
 .container-header {
@@ -30,7 +35,7 @@
   background-color: var(--white-cl);
   transform: translateX(-100%);
   transition: var(--transition-settings);
-  z-index: 2;
+  z-index: 15;
 }
 
 .main-nav.is-show {

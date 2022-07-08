@@ -5,7 +5,6 @@ const swiper = new Swiper(".swiper-hero", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    dynamicBullets: true,
   },
   autoplay: {
     delay: 3000,
