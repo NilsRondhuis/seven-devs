@@ -12964,8 +12964,7 @@ _swiper.default.use([_swiper.Pagination, _swiper.Autoplay]);
 const swiper = new _swiper.default(".swiper-hero", {
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true
+    clickable: true
   },
   autoplay: {
     delay: 3000,
@@ -13030,7 +13029,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "6040" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2955" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
