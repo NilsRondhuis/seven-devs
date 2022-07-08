@@ -2,7 +2,7 @@
   "name": "seven-devs",
   "version": "1.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "https://NilsRondhuis.github.io/seven-devs",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
