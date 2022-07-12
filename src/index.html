@@ -21,42 +21,45 @@
   </head>
   <body>
     <header class="header">
-      <div class="container container-header">
-        <button class="menu-btn">
-          <svg class="icon-menu">
-            <use href="./images/svg/sprite.svg#icon-menu"></use>
-          </svg>
-          <svg class="icon-arrow visually-hidden">
-            <use href="./images/svg/sprite.svg#icon-arrow-left"></use>
-          </svg>
-        </button>
-        <a href="">
-          <img src="./images/logo.png" alt="Логотип seven devs" width="100" />
-        </a>
+      <button class="menu-btn">
+        <svg class="icon-menu">
+          <use href="./images/svg/sprite.svg#icon-menu"></use>
+        </svg>
+        <svg class="icon-arrow visually-hidden">
+          <use href="./images/svg/sprite.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <a href="">
+        <img
+          srcset="./images/logo.png 1x, ./images/logo@2x.png 2x"
+          src="./images/logo.png"
+          alt="Логотип seven devs"
+          width="100"
+        />
+      </a>
 
-        <nav class="main-nav">
-          <ul class="list-nav">
-            <li class="item">
-              <a href="" class="link-nav">Про нас</a>
-            </li>
-            <li class="item">
-              <a href="" class="link-nav">Послуги</a>
-            </li>
-            <li class="item">
-              <a href="" class="link-nav">Виконані роботи</a>
-            </li>
-            <li class="item">
-              <a href="" class="link-nav">Відгуки</a>
-            </li>
-            <li class="item">
-              <a href="" class="link-nav">Замовити</a>
-            </li>
-            <li class="item">
-              <a href="" class="link-nav">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="main-nav">
+        <ul class="list-nav">
+          <li class="item">
+            <a href="" class="link-nav">Про нас</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-nav">Послуги</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-nav">Виконані роботи</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-nav">Відгуки</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-nav">Замовити</a>
+          </li>
+          <li class="item">
+            <a href="" class="link-nav">Контакти</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="section-hero">
@@ -87,6 +90,7 @@
       </section>
     </main>
 
+    <div class="backdrop-shared"></div>
     <script src="index.js"></script>
   </body>
 </html>

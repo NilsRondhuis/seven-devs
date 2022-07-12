@@ -6,10 +6,10 @@ const swiper = new Swiper(".swiper-hero", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: true,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: true,
+  // },
   speed: 500,
   simulateTouch: true,
 });
