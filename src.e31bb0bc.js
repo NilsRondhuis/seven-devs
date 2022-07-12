@@ -194,7 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
+},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-1@2x.jpeg":[["item-1@2x.80987c46.jpeg","images/hero/mobile/item-1@2x.jpeg"],"images/hero/mobile/item-1@2x.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-2@2x.jpeg":[["item-2@2x.48083128.jpeg","images/hero/mobile/item-2@2x.jpeg"],"images/hero/mobile/item-2@2x.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"./..\\images\\hero\\mobile\\item-3@2x.jpeg":[["item-3@2x.6e111d51.jpeg","images/hero/mobile/item-3@2x.jpeg"],"images/hero/mobile/item-3@2x.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -205,7 +205,8 @@ const refs = {
   menuBtn: document.querySelector(".menu-btn"),
   iconMenu: document.querySelector(".icon-menu"),
   iconArrow: document.querySelector(".icon-arrow"),
-  mainNav: document.querySelector(".main-nav")
+  mainNav: document.querySelector(".main-nav"),
+  backdropShared: document.querySelector(".backdrop-shared")
 };
 var _default = refs;
 exports.default = _default;
@@ -12966,10 +12967,10 @@ const swiper = new _swiper.default(".swiper-hero", {
     el: ".swiper-pagination",
     clickable: true
   },
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: true
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: true,
+  // },
   speed: 500,
   simulateTouch: true
 });
@@ -12987,8 +12988,18 @@ function onClickMenuBtn() {
 
   _refs.default.iconArrow.classList.toggle("visually-hidden");
 
-  _refs.default.mainNav.classList.toggle("is-show");
+  _refs.default.mainNav.classList.toggle("main-nav__is-show");
+
+  _refs.default.backdropShared.classList.toggle("backdrop-shared__is-show");
 }
+
+window.addEventListener("click", e => {
+  if (e.target.classList.contains("backdrop-shared")) {
+    onClickMenuBtn();
+  }
+
+  return;
+});
 },{"./refs":"js/refs.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -13029,7 +13040,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2955" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3155" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
