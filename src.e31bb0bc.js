@@ -194,7 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-1@2x.jpeg":[["item-1@2x.80987c46.jpeg","images/hero/mobile/item-1@2x.jpeg"],"images/hero/mobile/item-1@2x.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-2@2x.jpeg":[["item-2@2x.48083128.jpeg","images/hero/mobile/item-2@2x.jpeg"],"images/hero/mobile/item-2@2x.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"./..\\images\\hero\\mobile\\item-3@2x.jpeg":[["item-3@2x.6e111d51.jpeg","images/hero/mobile/item-3@2x.jpeg"],"images/hero/mobile/item-3@2x.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
+},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-1@2x.jpeg":[["item-1@2x.80987c46.jpeg","images/hero/mobile/item-1@2x.jpeg"],"images/hero/mobile/item-1@2x.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-2@2x.jpeg":[["item-2@2x.48083128.jpeg","images/hero/mobile/item-2@2x.jpeg"],"images/hero/mobile/item-2@2x.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"./..\\images\\hero\\mobile\\item-3@2x.jpeg":[["item-3@2x.6e111d51.jpeg","images/hero/mobile/item-3@2x.jpeg"],"images/hero/mobile/item-3@2x.jpeg"],"./..\\images\\hero\\tablet\\item-1.jpeg":[["item-1.281a2972.jpeg","images/hero/tablet/item-1.jpeg"],"images/hero/tablet/item-1.jpeg"],"./..\\images\\hero\\tablet\\item-1@2x.jpeg":[["item-1@2x.32012e7e.jpeg","images/hero/tablet/item-1@2x.jpeg"],"images/hero/tablet/item-1@2x.jpeg"],"./..\\images\\hero\\tablet\\item-2.jpeg":[["item-2.43656c99.jpeg","images/hero/tablet/item-2.jpeg"],"images/hero/tablet/item-2.jpeg"],"./..\\images\\hero\\tablet\\item-2@2x.jpeg":[["item-2@2x.a65cb777.jpeg","images/hero/tablet/item-2@2x.jpeg"],"images/hero/tablet/item-2@2x.jpeg"],"./..\\images\\hero\\tablet\\item-3.jpeg":[["item-3.5526ec56.jpeg","images/hero/tablet/item-3.jpeg"],"images/hero/tablet/item-3.jpeg"],"./..\\images\\hero\\tablet\\item-3@2x.jpeg":[["item-3@2x.54647b59.jpeg","images/hero/tablet/item-3@2x.jpeg"],"images/hero/tablet/item-3@2x.jpeg"],"./..\\images\\hero\\desktop\\item-1.jpeg":[["item-1.b54967a9.jpeg","images/hero/desktop/item-1.jpeg"],"images/hero/desktop/item-1.jpeg"],"./..\\images\\hero\\desktop\\item-1@2x.jpeg":[["item-1@2x.5e315a1c.jpeg","images/hero/desktop/item-1@2x.jpeg"],"images/hero/desktop/item-1@2x.jpeg"],"./..\\images\\hero\\desktop\\item-2.jpeg":[["item-2.9b92511a.jpeg","images/hero/desktop/item-2.jpeg"],"images/hero/desktop/item-2.jpeg"],"./..\\images\\hero\\desktop\\item-2@2x.jpeg":[["item-2@2x.a36e1959.jpeg","images/hero/desktop/item-2@2x.jpeg"],"images/hero/desktop/item-2@2x.jpeg"],"./..\\images\\hero\\desktop\\item-3.jpeg":[["item-3.9d93acb1.jpeg","images/hero/desktop/item-3.jpeg"],"images/hero/desktop/item-3.jpeg"],"./..\\images\\hero\\desktop\\item-3@2x.jpeg":[["item-3@2x.b567459d.jpeg","images/hero/desktop/item-3@2x.jpeg"],"images/hero/desktop/item-3@2x.jpeg"],"./..\\images\\icons\\arrow-right.png":[["arrow-right.0870e27a.png","images/icons/arrow-right.png"],"images/icons/arrow-right.png"],"./..\\images\\icons\\arrow-left.png":[["arrow-left.147e3888.png","images/icons/arrow-left.png"],"images/icons/arrow-left.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -206,7 +206,8 @@ const refs = {
   iconMenu: document.querySelector(".icon-menu"),
   iconArrow: document.querySelector(".icon-arrow"),
   mainNav: document.querySelector(".main-nav"),
-  backdropShared: document.querySelector(".backdrop-shared")
+  backdropShared: document.querySelector(".backdrop-shared"),
+  header: document.querySelector(".header")
 };
 var _default = refs;
 exports.default = _default;
@@ -12960,7 +12961,7 @@ function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "functio
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-_swiper.default.use([_swiper.Pagination, _swiper.Autoplay]);
+_swiper.default.use([_swiper.Pagination, _swiper.Autoplay, _swiper.Navigation]);
 
 const swiper = new _swiper.default(".swiper-hero", {
   pagination: {
@@ -12972,7 +12973,16 @@ const swiper = new _swiper.default(".swiper-hero", {
   //   disableOnInteraction: true,
   // },
   speed: 500,
-  simulateTouch: true
+  simulateTouch: true,
+  grabCursor: true,
+  breakpoints: {
+    1200: {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+  }
 });
 },{"swiper":"../node_modules/swiper/swiper.esm.js"}],"js/menu.js":[function(require,module,exports) {
 "use strict";
@@ -13000,6 +13010,28 @@ window.addEventListener("click", e => {
 
   return;
 });
+},{"./refs":"js/refs.js"}],"js/header.js":[function(require,module,exports) {
+"use strict";
+
+var _refs = _interopRequireDefault(require("./refs"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+window.addEventListener("scroll", onFixedHeaderTop);
+
+function onFixedHeaderTop() {
+  const rect = document.body.getBoundingClientRect();
+
+  if (rect.y < -100) {
+    _refs.default.header.classList.add("header__is-fixed");
+
+    _refs.default.mainNav.classList.add("main-nav__is-fixed");
+  } else {
+    _refs.default.header.classList.remove("header__is-fixed");
+
+    _refs.default.mainNav.classList.remove("main-nav__is-fixed");
+  }
+}
 },{"./refs":"js/refs.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -13012,7 +13044,9 @@ require("./js/refs");
 require("./js/swiper-slider");
 
 require("./js/menu");
-},{"../node_modules/swiper/swiper-bundle.min.css":"../node_modules/swiper/swiper-bundle.min.css","./sass/main.scss":"sass/main.scss","./js/refs":"js/refs.js","./js/swiper-slider":"js/swiper-slider.js","./js/menu":"js/menu.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+require("./js/header");
+},{"../node_modules/swiper/swiper-bundle.min.css":"../node_modules/swiper/swiper-bundle.min.css","./sass/main.scss":"sass/main.scss","./js/refs":"js/refs.js","./js/swiper-slider":"js/swiper-slider.js","./js/menu":"js/menu.js","./js/header":"js/header.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -13040,7 +13074,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3155" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "11548" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
