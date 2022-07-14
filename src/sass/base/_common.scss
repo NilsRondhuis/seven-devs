@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.86;
+  line-height: 1.9;
   letter-spacing: 0.02em;
   color: var(--font-cl);
 }
@@ -64,4 +64,10 @@ p {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+@include for-size(desktop) {
+  body {
+    padding: 0;
+  }
 }

@@ -1,5 +1,5 @@
-import Swiper, { Pagination, Autoplay } from "swiper";
-Swiper.use([Pagination, Autoplay]);
+import Swiper, { Pagination, Autoplay, Navigation } from "swiper";
+Swiper.use([Pagination, Autoplay, Navigation]);
 
 const swiper = new Swiper(".swiper-hero", {
   pagination: {
@@ -12,4 +12,13 @@ const swiper = new Swiper(".swiper-hero", {
   // },
   speed: 500,
   simulateTouch: true,
+  grabCursor: true,
+  breakpoints: {
+    1200: {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    },
+  },
 });

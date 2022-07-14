@@ -110,12 +110,194 @@
   .swiper-pagination-bullet {
     background-color: var(--white-cl);
   }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
 }
 
 @include for-size(tablet) {
   .list-headers {
     .item {
       height: 560px;
+
+      &:nth-child(1) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/tablet/item-1.jpeg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/tablet/item-1@2x.jpeg);
+        }
+      }
+
+      &:nth-child(2) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/tablet/item-2.jpeg);
+        background-position: center 12px;
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/tablet/item-2@2x.jpeg);
+        }
+      }
+
+      &:nth-child(3) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/tablet/item-3.jpeg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/tablet/item-3@2x.jpeg);
+        }
+      }
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .list-headers {
+    .item {
+      height: 720px;
+
+      &:nth-child(1) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/desktop/item-1.jpeg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/desktop/item-1@2x.jpeg);
+        }
+      }
+
+      &:nth-child(2) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/desktop/item-2.jpeg);
+        background-position: center 0;
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/desktop/item-2@2x.jpeg);
+        }
+      }
+
+      &:nth-child(3) {
+        background-image: linear-gradient(
+            90deg,
+            rgba(25, 23, 20, 0.7) 0%,
+            rgba(25, 23, 20, 0.7) 50%,
+            rgba(25, 23, 20, 0.7) 100%
+          ),
+          url(../images/hero/desktop/item-3.jpeg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+          screen and (min-resolution: 192dpi),
+          screen and (min-resolution: 2dppx) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(25, 23, 20, 0.7) 0%,
+              rgba(25, 23, 20, 0.7) 50%,
+              rgba(25, 23, 20, 0.7) 100%
+            ),
+            url(../images/hero/desktop/item-3@2x.jpeg);
+        }
+      }
+    }
+  }
+
+  .hero-header {
+    font-size: 72px;
+    line-height: 1.18;
+  }
+
+  .hero-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .swiper-hero {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: flex;
+      width: 40px;
+      height: 60px;
+      background-color: var(--white-cl);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 20px;
+
+      &::after {
+        content: "";
+      }
+    }
+    .swiper-button-next {
+      right: 0;
+      background-image: url(../images/icons/arrow-right.png);
+    }
+    .swiper-button-prev {
+      left: 0;
+      background-image: url(../images/icons/arrow-left.png);
     }
   }
 }
