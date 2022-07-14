@@ -3,8 +3,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
+  font-size: 14px;
+  line-height: 1.86;
   letter-spacing: 0.02em;
   color: var(--font-cl);
 }
@@ -69,5 +69,7 @@ p {
 @include for-size(desktop) {
   body {
     padding: 0;
+    font-size: 16px;
+    line-height: 1.62;
   }
 }

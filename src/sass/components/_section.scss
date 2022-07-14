@@ -1,0 +1,10 @@
+.section {
+  padding: 90px 0;
+
+  @include for-size(tablet) {
+    padding: 100px 0;
+  }
+  @include for-size(desktop) {
+    padding: 130px 0;
+  }
+}

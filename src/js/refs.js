@@ -4,6 +4,7 @@ const refs = {
   iconArrow: document.querySelector(".icon-arrow"),
   mainNav: document.querySelector(".main-nav"),
   backdropShared: document.querySelector(".backdrop-shared"),
+  header: document.querySelector(".header"),
 };
 
 export default refs;

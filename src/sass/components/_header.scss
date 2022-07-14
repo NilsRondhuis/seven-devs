@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  z-index: 10;
+  z-index: 12;
   background-color: var(--white-cl);
 }
 
@@ -95,6 +95,12 @@
       rgba(25, 23, 20, 0.7) 100%
     );
   }
+  .header.header__is-fixed {
+    margin: 0;
+    width: 100%;
+    background-color: var(--font-cl);
+    box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  }
 
   .logo {
     display: flex;
@@ -115,6 +121,10 @@
     width: 0;
     height: auto;
     background-color: transparent;
+  }
+
+  .main-nav.main-nav__is-fixed {
+    margin-left: 200px;
   }
 
   .list-nav {

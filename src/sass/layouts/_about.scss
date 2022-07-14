@@ -1,0 +1,38 @@
+.section-about {
+  .text {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+}
+
+.about-header {
+  margin-bottom: 20px;
+}
+
+@include for-size(tablet) {
+  .section-about {
+    .text {
+      margin: 0;
+    }
+  }
+
+  .about-header {
+    margin-bottom: 30px;
+  }
+
+  .box-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .item {
+      flex-basis: calc((100% - 1 * 30px) / 2);
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .about-header {
+    margin-bottom: 40px;
+  }
+}
