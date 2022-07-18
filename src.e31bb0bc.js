@@ -194,7 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-1@2x.jpeg":[["item-1@2x.80987c46.jpeg","images/hero/mobile/item-1@2x.jpeg"],"images/hero/mobile/item-1@2x.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-2@2x.jpeg":[["item-2@2x.48083128.jpeg","images/hero/mobile/item-2@2x.jpeg"],"images/hero/mobile/item-2@2x.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"./..\\images\\hero\\mobile\\item-3@2x.jpeg":[["item-3@2x.6e111d51.jpeg","images/hero/mobile/item-3@2x.jpeg"],"images/hero/mobile/item-3@2x.jpeg"],"./..\\images\\hero\\tablet\\item-1.jpeg":[["item-1.281a2972.jpeg","images/hero/tablet/item-1.jpeg"],"images/hero/tablet/item-1.jpeg"],"./..\\images\\hero\\tablet\\item-1@2x.jpeg":[["item-1@2x.32012e7e.jpeg","images/hero/tablet/item-1@2x.jpeg"],"images/hero/tablet/item-1@2x.jpeg"],"./..\\images\\hero\\tablet\\item-2.jpeg":[["item-2.43656c99.jpeg","images/hero/tablet/item-2.jpeg"],"images/hero/tablet/item-2.jpeg"],"./..\\images\\hero\\tablet\\item-2@2x.jpeg":[["item-2@2x.a65cb777.jpeg","images/hero/tablet/item-2@2x.jpeg"],"images/hero/tablet/item-2@2x.jpeg"],"./..\\images\\hero\\tablet\\item-3.jpeg":[["item-3.5526ec56.jpeg","images/hero/tablet/item-3.jpeg"],"images/hero/tablet/item-3.jpeg"],"./..\\images\\hero\\tablet\\item-3@2x.jpeg":[["item-3@2x.54647b59.jpeg","images/hero/tablet/item-3@2x.jpeg"],"images/hero/tablet/item-3@2x.jpeg"],"./..\\images\\hero\\desktop\\item-1.jpeg":[["item-1.b54967a9.jpeg","images/hero/desktop/item-1.jpeg"],"images/hero/desktop/item-1.jpeg"],"./..\\images\\hero\\desktop\\item-1@2x.jpeg":[["item-1@2x.5e315a1c.jpeg","images/hero/desktop/item-1@2x.jpeg"],"images/hero/desktop/item-1@2x.jpeg"],"./..\\images\\hero\\desktop\\item-2.jpeg":[["item-2.9b92511a.jpeg","images/hero/desktop/item-2.jpeg"],"images/hero/desktop/item-2.jpeg"],"./..\\images\\hero\\desktop\\item-2@2x.jpeg":[["item-2@2x.a36e1959.jpeg","images/hero/desktop/item-2@2x.jpeg"],"images/hero/desktop/item-2@2x.jpeg"],"./..\\images\\hero\\desktop\\item-3.jpeg":[["item-3.9d93acb1.jpeg","images/hero/desktop/item-3.jpeg"],"images/hero/desktop/item-3.jpeg"],"./..\\images\\hero\\desktop\\item-3@2x.jpeg":[["item-3@2x.b567459d.jpeg","images/hero/desktop/item-3@2x.jpeg"],"images/hero/desktop/item-3@2x.jpeg"],"./..\\images\\icons\\arrow-right.png":[["arrow-right.0870e27a.png","images/icons/arrow-right.png"],"images/icons/arrow-right.png"],"./..\\images\\icons\\arrow-left.png":[["arrow-left.147e3888.png","images/icons/arrow-left.png"],"images/icons/arrow-left.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
+},{"./..\\images\\hero\\mobile\\item-1.jpeg":[["item-1.d27c4248.jpeg","images/hero/mobile/item-1.jpeg"],"images/hero/mobile/item-1.jpeg"],"./..\\images\\hero\\mobile\\item-1@2x.jpeg":[["item-1@2x.80987c46.jpeg","images/hero/mobile/item-1@2x.jpeg"],"images/hero/mobile/item-1@2x.jpeg"],"./..\\images\\hero\\mobile\\item-2.jpeg":[["item-2.284870b9.jpeg","images/hero/mobile/item-2.jpeg"],"images/hero/mobile/item-2.jpeg"],"./..\\images\\hero\\mobile\\item-2@2x.jpeg":[["item-2@2x.48083128.jpeg","images/hero/mobile/item-2@2x.jpeg"],"images/hero/mobile/item-2@2x.jpeg"],"./..\\images\\hero\\mobile\\item-3.jpeg":[["item-3.2611ec6c.jpeg","images/hero/mobile/item-3.jpeg"],"images/hero/mobile/item-3.jpeg"],"./..\\images\\hero\\mobile\\item-3@2x.jpeg":[["item-3@2x.6e111d51.jpeg","images/hero/mobile/item-3@2x.jpeg"],"images/hero/mobile/item-3@2x.jpeg"],"./..\\images\\hero\\tablet\\item-1.jpeg":[["item-1.281a2972.jpeg","images/hero/tablet/item-1.jpeg"],"images/hero/tablet/item-1.jpeg"],"./..\\images\\hero\\tablet\\item-1@2x.jpeg":[["item-1@2x.32012e7e.jpeg","images/hero/tablet/item-1@2x.jpeg"],"images/hero/tablet/item-1@2x.jpeg"],"./..\\images\\hero\\tablet\\item-2.jpeg":[["item-2.43656c99.jpeg","images/hero/tablet/item-2.jpeg"],"images/hero/tablet/item-2.jpeg"],"./..\\images\\hero\\tablet\\item-2@2x.jpeg":[["item-2@2x.a65cb777.jpeg","images/hero/tablet/item-2@2x.jpeg"],"images/hero/tablet/item-2@2x.jpeg"],"./..\\images\\hero\\tablet\\item-3.jpeg":[["item-3.5526ec56.jpeg","images/hero/tablet/item-3.jpeg"],"images/hero/tablet/item-3.jpeg"],"./..\\images\\hero\\tablet\\item-3@2x.jpeg":[["item-3@2x.54647b59.jpeg","images/hero/tablet/item-3@2x.jpeg"],"images/hero/tablet/item-3@2x.jpeg"],"./..\\images\\hero\\desktop\\item-1.jpeg":[["item-1.b54967a9.jpeg","images/hero/desktop/item-1.jpeg"],"images/hero/desktop/item-1.jpeg"],"./..\\images\\hero\\desktop\\item-1@2x.jpeg":[["item-1@2x.5e315a1c.jpeg","images/hero/desktop/item-1@2x.jpeg"],"images/hero/desktop/item-1@2x.jpeg"],"./..\\images\\hero\\desktop\\item-2.jpeg":[["item-2.9b92511a.jpeg","images/hero/desktop/item-2.jpeg"],"images/hero/desktop/item-2.jpeg"],"./..\\images\\hero\\desktop\\item-2@2x.jpeg":[["item-2@2x.a36e1959.jpeg","images/hero/desktop/item-2@2x.jpeg"],"images/hero/desktop/item-2@2x.jpeg"],"./..\\images\\hero\\desktop\\item-3.jpeg":[["item-3.9d93acb1.jpeg","images/hero/desktop/item-3.jpeg"],"images/hero/desktop/item-3.jpeg"],"./..\\images\\hero\\desktop\\item-3@2x.jpeg":[["item-3@2x.b567459d.jpeg","images/hero/desktop/item-3@2x.jpeg"],"images/hero/desktop/item-3@2x.jpeg"],"./..\\images\\icons\\arrow-right.png":[["arrow-right.0870e27a.png","images/icons/arrow-right.png"],"images/icons/arrow-right.png"],"./..\\images\\icons\\arrow-left.png":[["arrow-left.147e3888.png","images/icons/arrow-left.png"],"images/icons/arrow-left.png"],"./..\\images\\question\\mobile\\item-1.jpeg":[["item-1.e300fd4b.jpeg","images/question/mobile/item-1.jpeg"],"images/question/mobile/item-1.jpeg"],"./..\\images\\question\\mobile\\item-1@2x.jpeg":[["item-1@2x.a8829267.jpeg","images/question/mobile/item-1@2x.jpeg"],"images/question/mobile/item-1@2x.jpeg"],"./..\\images\\question\\tablet\\item-1.jpeg":[["item-1.07b88172.jpeg","images/question/tablet/item-1.jpeg"],"images/question/tablet/item-1.jpeg"],"./..\\images\\question\\tablet\\item-1@2x.jpeg":[["item-1@2x.1bc121b2.jpeg","images/question/tablet/item-1@2x.jpeg"],"images/question/tablet/item-1@2x.jpeg"],"./..\\images\\question\\desktop\\item-1.jpeg":[["item-1.830a908a.jpeg","images/question/desktop/item-1.jpeg"],"images/question/desktop/item-1.jpeg"],"./..\\images\\question\\desktop\\item-1@2x.jpeg":[["item-1@2x.772d39e2.jpeg","images/question/desktop/item-1@2x.jpeg"],"images/question/desktop/item-1@2x.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/refs.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -12963,7 +12963,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 _swiper.default.use([_swiper.Pagination, _swiper.Autoplay, _swiper.Navigation]);
 
-const swiper = new _swiper.default(".swiper-hero", {
+const swiperHero = new _swiper.default(".swiper-hero", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true
@@ -12981,6 +12981,26 @@ const swiper = new _swiper.default(".swiper-hero", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
       }
+    }
+  }
+});
+const swiperWorks = new _swiper.default(".swiper-works", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  loop: true,
+  autoHeight: true,
+  simulateTouch: true,
+  grabCursor: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2
+    },
+    1200: {
+      slidesPerView: 3,
+      slidesPerGroup: 3
     }
   }
 });
@@ -13074,7 +13094,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "10552" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "12480" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
