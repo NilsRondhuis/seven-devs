@@ -8,6 +8,7 @@
   padding: 10px;
   z-index: 12;
   background-color: var(--white-cl);
+  box-shadow: var(--shadow-bottom);
 }
 
 .menu-btn {
@@ -94,12 +95,13 @@
       rgba(25, 23, 20, 0.7) 50%,
       rgba(25, 23, 20, 0.7) 100%
     );
+    box-shadow: none;
   }
   .header.header__is-fixed {
     margin: 0;
     width: 100%;
     background-color: var(--font-cl);
-    box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: var(--shadow-bottom);
   }
 
   .logo {

@@ -14,7 +14,7 @@
   }
 }
 
-.service-header {
+.service-heading {
   text-align: center;
 }
 
@@ -76,7 +76,7 @@
     justify-content: center;
 
     .item {
-      padding: 10px;
+      padding: 20px 10px 10px 10px;
       flex-basis: calc((100% - 3 * 20px) / 4);
       transition: var(--transition-settings);
 

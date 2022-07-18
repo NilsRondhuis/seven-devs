@@ -1,0 +1,103 @@
+.section-question {
+  background-color: gray;
+  background-image: linear-gradient(
+      90deg,
+      rgba(25, 23, 20, 0.8) 0%,
+      rgba(25, 23, 20, 0.8) 50%,
+      rgba(25, 23, 20, 0.8) 100%
+    ),
+    url(../images/question/mobile/item-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        90deg,
+        rgba(25, 23, 20, 0.8) 0%,
+        rgba(25, 23, 20, 0.8) 50%,
+        rgba(25, 23, 20, 0.8) 100%
+      ),
+      url(../images/question/mobile/item-1@2x.jpeg);
+  }
+
+  .text {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--white-cl);
+  }
+}
+
+.question-heading {
+  margin-bottom: 20px;
+  color: var(--white-cl);
+}
+
+.container-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@include for-size(tablet) {
+  .section-question {
+    background-image: linear-gradient(
+        90deg,
+        rgba(25, 23, 20, 0.8) 0%,
+        rgba(25, 23, 20, 0.8) 50%,
+        rgba(25, 23, 20, 0.8) 100%
+      ),
+      url(../images/question/tablet/item-1.jpeg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          90deg,
+          rgba(25, 23, 20, 0.8) 0%,
+          rgba(25, 23, 20, 0.8) 50%,
+          rgba(25, 23, 20, 0.8) 100%
+        ),
+        url(../images/question/tablet/item-1@2x.jpeg);
+    }
+
+    .text {
+      margin-bottom: 60px;
+      font-size: 18px;
+      line-height: 1.67;
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .section-question {
+    background-image: linear-gradient(
+        90deg,
+        rgba(25, 23, 20, 0.8) 0%,
+        rgba(25, 23, 20, 0.8) 50%,
+        rgba(25, 23, 20, 0.8) 100%
+      ),
+      url(../images/question/desktop/item-1.jpeg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          90deg,
+          rgba(25, 23, 20, 0.8) 0%,
+          rgba(25, 23, 20, 0.8) 50%,
+          rgba(25, 23, 20, 0.8) 100%
+        ),
+        url(../images/question/desktop/item-1@2x.jpeg);
+    }
+
+    .text {
+      font-size: 26px;
+    }
+  }
+}
